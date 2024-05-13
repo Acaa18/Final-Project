@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .hero-image {
+      background-image: url("../wzpeanut.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      height: 15rem;
+  }
+
+  header {
+    background-color: goldenrod;
+
+  }
+
+  .home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .topnav {
+    margin-top: 30px;
+  }
+  .topnav a{
+    padding: 14px 16px;
+    font-size: 26px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  
+  .featured {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  
+  
+  .delights {
+    /* background-color: aqua; */
+  }
+  
+  .delights h2 {
+      text-align: center;
+  }
+  .delight-recipe {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 1rem = 16px */
+    gap: 1rem;
+  }
+  img {
+    width: 300px;
+    height: 300px;
+    /* object-fit: cover; */
+    border-radius: 2rem;
+  }
+
+  .contact {
+    background-color: burlywood;
+    height: 400px;
+    padding: 10px;
+    
+  }
+
+  label {
+    font-size: 20px;
+    
+  }
+
+  input {
+    font-size: 20px;
+    padding: 5px;
+    margin: 10px;
+    background-color: beige;
+    border: 2px solid black;
+    border-radius: 4px;
+  }
+
+  input [type="submit"] {
+    font-size: 4px;
+    padding: 5px;
+  }
+
+
+  
+  @media screen and (min-width: 768px) {
+    .delight-recipe {
+      flex-direction: row;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    };
+    p {
+      font-size: 1.5rem;
+    }
+  }

@@ -1,0 +1,36 @@
+
+/* global styles */
+* {
+    margin: 20px; /* no border to the viewable frame */
+    padding: 0px; /* no padding to the viewable frame */
+    box-sizing: border-box;
+    /* border: 1px solid rgb(109, 7, 24); */
+  }
+  
+  h1 {
+    font-family: "Lucida Handwriting";
+  }
+  
+  h2 {
+    font-family: "Lucida Handwriting";
+  }
+   
+  header {
+    background-color: goldenrod;
+  }
+  .home {
+    display: flex; /* apply flexbox */
+    flex-direction: column; /* flexbox item in column */
+    align-items: center; /* items vertically centered */
+    justify-content: space-between; /* left space between containers */
+  }
+  .topnav {
+    margin: 15px;
+  }
+  /* Style the links inside the topnav */
+  .topnav a {
+    font-family: "Lucida Handwriting";
+    color:black; /* text color black */
+    padding: 14px 16px;
+    text-decoration: none; /* no underline of links */
+    font-size: 26px;}
